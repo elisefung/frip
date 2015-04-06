@@ -97,19 +97,30 @@ img {
       #footer ul li a:hover {
         color: #756E95; }
 
-/* line 127, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+/* line 126, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+h2 {
+  font-size: 36px;
+  letter-spacing: 0.05em; }
+
+/* line 131, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+p {
+  font-size: 22px;
+  line-height: 36px;
+  letter-spacing: 0.02em; }
+
+/* line 138, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
 #home h1 {
   font-size: 88px;
   letter-spacing: 0.09em;
   margin-top: 0px;
   margin-bottom: 0px; }
-/* line 133, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+/* line 144, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
 #home h4 {
   font-size: 32px;
   letter-spacing: 0.05em;
   line-height: 47px;
   margin-top: 20px; }
-/* line 139, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+/* line 150, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
 #home span {
   padding: 15px 18px;
   background-color: white;
