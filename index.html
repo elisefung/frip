@@ -9,7 +9,6 @@
 
     <link rel="stylesheet" type="text/css" href="bower_components/fullpage.js/jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
     <!--[if IE]>
 		<script type="text/javascript">
@@ -25,7 +24,7 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $('#fullpage').fullpage({
-                //                anchors: ['home', 'feature1', 'feature2', 'feature3'],
+                anchors: ['home', 'create', 'build', 'travel'],
                 sectionsColor: ['#E0E0F6', '#C7C7DC', '#EF918D', '#69C4AB'],
                 navigation: true,
                 //                navigationPosition: 'right',
@@ -53,7 +52,8 @@
                     <h4>
                         A mobile app that builds flexible itineraries for friends looking to explore a new city
                     </h4>
-                    <span><i class="fa fa-apple">&nbsp;</i> Coming soon to the app store</span>
+                    <a class="btn" href="#create">learn more</a>
+                    <a class="btn" id="demo" href="#">demo</a>
                 </div>
             </div>
         </div>
@@ -107,14 +107,16 @@
     <!--end fullpage-->
 
     <div id="line">&nbsp;</div>
+    <!--
     <div id="footer">
         <ul>
-            <li><a href="#">demo</a>
+            <li id="demo"><a href="#">demo</a>
             </li>
-            <li><a href="about.html">about frip</a>
+            <li id="about"><a href="about.html">about frip</a>
             </li>
         </ul>
     </div>
+-->
 
 
 </body>
