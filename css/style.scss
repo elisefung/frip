@@ -38,6 +38,17 @@ h6 {
     font-family: $header-font;
 }
 
+h2 {
+    font-size: 36px;
+    letter-spacing: 0.05em;
+}
+
+p {
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -104,7 +115,8 @@ img {
     position: fixed;
     z-index: 70;
     bottom: 0;
-    width: 100%;
+    width: 47%;
+    text-align: center;
     @media screen and (max-width: 767px) {
         text-align: center;
     }
@@ -115,6 +127,7 @@ img {
             a {
                 color: white;
                 text-decoration: none;
+                text-shadow: 2px 2px 5px rgba(150, 150, 150, 1);
                 &:hover {
                     color: $blue;
                 }
@@ -123,18 +136,11 @@ img {
     }
 }
 
-h2 {
-    font-size: 36px;
-    letter-spacing: 0.05em;
-}
-
-p {
-    font-size: 22px;
-    line-height: 36px;
-    letter-spacing: 0.02em;
-}
-
 #home {
+    .left-slide {
+        background: url('../img/city.jpg') no-repeat center center;
+        background-size: cover;
+    }
     h1 {
         font-size: 88px;
         letter-spacing: 0.09em;
@@ -147,11 +153,16 @@ p {
         line-height: 47px;
         margin-top: 20px;
     }
-    span {
-        padding: 15px 18px;
+    button {
+        padding: 15px 20px;
         background-color: white;
         border-radius: 6px;
         border: 2px solid $darkblue;
         margin-top: 30px;
+        width: auto;
+        font-family: $body-font;
+        font-size: 18px;
+        letter-spacing: 0.02em;
+        color: $darkblue;
     }
 }
