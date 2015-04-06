@@ -25,6 +25,8 @@ $gray: #999999;
 body {
     color: $darkblue;
     font-family: $body-font;
+    letter-spacing: 0.05em;
+    font-size: 18px;
 }
 
 h1,
@@ -34,6 +36,11 @@ h4,
 h5,
 h6 {
     font-family: $header-font;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .fp-slidesContainer {
@@ -49,29 +56,48 @@ h6 {
 
 .left-slide {
     text-align: center;
+    .wrap {
+        padding-top: 0;
+        height: 85%;
+        img {
+            max-height: 100%;
+            max-width: 100%;
+            @media screen and (max-width: 767px) {
+                //                max-height: 40%;
+            }
+        }
+    }
 }
 
 .right-slide {
     background-color: $tan;
+    .wrap {
+        padding: 10%;
+    }
+}
+
+#fp-nav {
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
 }
 
 #fp-nav.right {
     right: 50%;
     margin-right: -15px;
-    @media screen and (max-width: 767px) {
-        right: 17px;
-    }
 }
 
 #line {
     position: fixed;
-    //    z-index: 69;
     height: 100%;
     width: 1px;
     margin-right: -1px;
     bottom: 0;
     right: 50%;
     border-left: 1px solid $gray;
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
 }
 
 #footer {
@@ -79,9 +105,13 @@ h6 {
     z-index: 70;
     bottom: 0;
     width: 100%;
+    @media screen and (max-width: 767px) {
+        text-align: center;
+    }
     ul {
         li {
             display: inline;
+            padding: 10px;
             a {
                 color: white;
                 text-decoration: none;
