@@ -1,40 +1,74 @@
-/* variables */
+/* setup */
+@font-face {
+  font-family: 'Neo Sans Std';
+  src: url('fonts/NeoSansStd-Regular.otf'); }
+
+@font-face {
+  font-family: 'Neo Sans Pro Light';
+  src: url('fonts/Neo Sans Pro Light.ttf'); }
+
 /* ~~~ friplicious style ~~~ */
-/* line 10, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+/* line 25, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+body {
+  color: #444261;
+  font-family: 'Neo Sans Pro Light', 'Helvetica', sans-serif; }
+
+/* line 35, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Neo Sans Std', 'Helvetica', sans-serif; }
+
+/* line 39, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
 .fp-slidesContainer {
   width: 100% !important; }
   @media screen and (max-width: 767px) {
     .fp-slidesContainer {
       width: 200% !important; } }
 
-/* line 17, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+/* line 46, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
 .wrap {
   padding: 30px; }
 
-/* line 21, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+/* line 50, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
 .left-slide {
   text-align: center; }
 
-/* line 25, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+/* line 54, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
 .right-slide {
-  background-color: antiquewhite; }
+  background-color: #FEFFED; }
 
-/* line 31, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+/* line 58, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
 #fp-nav.right {
   right: 50%;
-  margin-right: -14px; }
+  margin-right: -15px; }
   @media screen and (max-width: 767px) {
     #fp-nav.right {
       right: 17px; } }
 
-/* line 39, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+/* line 66, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+#line {
+  position: fixed;
+  height: 100%;
+  width: 1px;
+  margin-right: -1px;
+  bottom: 0;
+  right: 50%;
+  border-left: 1px solid #999999; }
+
+/* line 77, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
 #footer {
   position: fixed;
   z-index: 70;
   bottom: 0;
   width: 100%; }
-  /* line 45, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+  /* line 83, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
   #footer ul li {
     display: inline; }
+    /* line 85, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+    #footer ul li a {
+      color: white;
+      text-decoration: none; }
+      /* line 88, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+      #footer ul li a:hover {
+        color: #756E95; }
 
 /*# sourceMappingURL=style.css.map */

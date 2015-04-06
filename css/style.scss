@@ -1,11 +1,40 @@
-/* variables */
+/* setup */
 
+@font-face {
+    font-family: 'Neo Sans Std';
+    src: url('fonts/NeoSansStd-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Neo Sans Pro Light';
+    src: url('fonts/Neo Sans Pro Light.ttf');
+}
+
+$header-font: 'Neo Sans Std',
+'Helvetica',
+sans-serif;
+$body-font: 'Neo Sans Pro Light',
+'Helvetica',
+sans-serif;
 $tan: #FEFFED;
 $darkblue: #444261;
 $blue: #756E95;
 $gray: #999999;
-
 /* ~~~ friplicious style ~~~ */
+
+body {
+    color: $darkblue;
+    font-family: $body-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $header-font;
+}
 
 .fp-slidesContainer {
     width: 100% !important;
@@ -23,17 +52,26 @@ $gray: #999999;
 }
 
 .right-slide {
-    background-color: antiquewhite;
+    background-color: $tan;
 }
-
-#fp-nav {}
 
 #fp-nav.right {
     right: 50%;
-    margin-right: -14px;
+    margin-right: -15px;
     @media screen and (max-width: 767px) {
         right: 17px;
     }
+}
+
+#line {
+    position: fixed;
+    //    z-index: 69;
+    height: 100%;
+    width: 1px;
+    margin-right: -1px;
+    bottom: 0;
+    right: 50%;
+    border-left: 1px solid $gray;
 }
 
 #footer {
@@ -44,6 +82,13 @@ $gray: #999999;
     ul {
         li {
             display: inline;
+            a {
+                color: white;
+                text-decoration: none;
+                &:hover {
+                    color: $blue;
+                }
+            }
         }
     }
 }
