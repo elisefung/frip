@@ -122,3 +122,25 @@ img {
         }
     }
 }
+
+#home {
+    h1 {
+        font-size: 88px;
+        letter-spacing: 0.09em;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    h4 {
+        font-size: 32px;
+        letter-spacing: 0.05em;
+        line-height: 47px;
+        margin-top: 20px;
+    }
+    span {
+        padding: 15px 18px;
+        background-color: white;
+        border-radius: 6px;
+        border: 2px solid $darkblue;
+        margin-top: 30px;
+    }
+}
