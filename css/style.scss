@@ -1,7 +1,17 @@
+/* variables */
+
+$tan: #FEFFED;
+$darkblue: #444261;
+$blue: #756E95;
+$gray: #999999;
+
 /* ~~~ friplicious style ~~~ */
 
 .fp-slidesContainer {
     width: 100% !important;
+    @media screen and (max-width: 767px) {
+        width: 200% !important;
+    }
 }
 
 .wrap {
@@ -16,7 +26,17 @@
     background-color: antiquewhite;
 }
 
-#infoMenu {
+#fp-nav {}
+
+#fp-nav.right {
+    right: 50%;
+    margin-right: -14px;
+    @media screen and (max-width: 767px) {
+        right: 17px;
+    }
+}
+
+#footer {
     position: fixed;
     z-index: 70;
     bottom: 0;
