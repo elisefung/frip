@@ -83,7 +83,7 @@ img {
 .right-slide {
     background-color: $tan;
     .wrap {
-        padding: 10%;
+        padding: 10% 12% 10% 10%;
     }
 }
 
@@ -138,31 +138,24 @@ img {
 
 #home {
     .left-slide {
-        background: url('../img/city.jpg') no-repeat center center;
+        background: url('../img/city-darker.jpg') no-repeat center center;
         background-size: cover;
     }
     h1 {
-        font-size: 88px;
+        font-size: 60px;
         letter-spacing: 0.09em;
-        margin-top: 0px;
-        margin-bottom: 0px;
+        margin: 0px 0 30px 0;
     }
     h4 {
         font-size: 32px;
         letter-spacing: 0.05em;
         line-height: 47px;
-        margin-top: 20px;
+        margin: 20px 0 60px 0;
     }
-    button {
+    span {
         padding: 15px 20px;
         background-color: white;
         border-radius: 6px;
         border: 2px solid $darkblue;
-        margin-top: 30px;
-        width: auto;
-        font-family: $body-font;
-        font-size: 18px;
-        letter-spacing: 0.02em;
-        color: $darkblue;
     }
 }

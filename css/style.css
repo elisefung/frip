@@ -63,7 +63,7 @@ img {
   background-color: #FEFFED; }
   /* line 85, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
   .right-slide .wrap {
-    padding: 10%; }
+    padding: 10% 12% 10% 10%; }
 
 @media screen and (max-width: 767px) {
   #fp-nav {
@@ -112,31 +112,24 @@ img {
 
 /* line 140, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
 #home .left-slide {
-  background: url('../img/city.jpg') no-repeat center center;
+  background: url('../img/city-darker.jpg') no-repeat center center;
   background-size: cover; }
 /* line 144, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
 #home h1 {
-  font-size: 88px;
+  font-size: 60px;
   letter-spacing: 0.09em;
-  margin-top: 0px;
-  margin-bottom: 0px; }
-/* line 150, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+  margin: 0px 0 30px 0; }
+/* line 149, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
 #home h4 {
   font-size: 32px;
   letter-spacing: 0.05em;
   line-height: 47px;
-  margin-top: 20px; }
-/* line 156, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
-#home button {
+  margin: 20px 0 60px 0; }
+/* line 155, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+#home span {
   padding: 15px 20px;
   background-color: white;
   border-radius: 6px;
-  border: 2px solid #444261;
-  margin-top: 30px;
-  width: auto;
-  font-family: 'Neo Sans Pro Light', 'Helvetica', sans-serif;
-  font-size: 18px;
-  letter-spacing: 0.02em;
-  color: #444261; }
+  border: 2px solid #444261; }
 
 /*# sourceMappingURL=style.css.map */
