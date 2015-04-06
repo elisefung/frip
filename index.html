@@ -3,52 +3,13 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Horizontal navigation dots - fullPage.js</title>
-    <meta name="author" content="Alvaro Trigo Lopez" />
-    <meta name="description" content="fullPage full-screen navigation and sections control menu." />
-    <meta name="keywords" content="fullpage,jquery,demo,screen,fullscreen,navigation,control arrows, dots" />
-    <meta name="Resource-type" content="Document" />
-
+    <title>frip</title>
+    <meta name="author" content="Elise Fung" />
+    <meta name="description" content="Frip, a mobile app that builds flexible itineraries for friends" />
 
     <link rel="stylesheet" type="text/css" href="bower_components/fullpage.js/jquery.fullPage.css" />
-    <link rel="stylesheet" type="text/css" href="css/examples.css" />
-    <style>
-        /* Style for our header texts
-	* --------------------------------------- */
-        
-        h1 {
-            font-size: 5em;
-            font-family: arial, helvetica;
-            color: #fff;
-            margin: 0;
-        }
-        
-        .intro p {
-            color: #fff;
-        }
-        /* Centered texts in each section
-	* --------------------------------------- */
-        
-        .section {
-            text-align: center;
-        }
-        /* Overwriting styles for control arrows for slides
-	* --------------------------------------- */
-        
-        .controlArrow.prev {
-            left: 50px;
-        }
-        
-        .controlArrow.next {
-            right: 50px;
-        }
-        /* Bottom menu
-	* --------------------------------------- */
-        
-        #infoMenu li a {
-            color: #fff;
-        }
-    </style>
+    <!--    <link rel="stylesheet" type="text/css" href="css/examples.css" />-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 
     <!--[if IE]>
 		<script type="text/javascript">
@@ -58,20 +19,18 @@
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-
     <script type="text/javascript" src="bower_components/fullpage.js/vendors/jquery.slimscroll.min.js"></script>
-
     <script type="text/javascript" src="bower_components/fullpage.js/jquery.fullPage.js"></script>
-    <script type="text/javascript" src="examples.js"></script>
+    <!--    <script type="text/javascript" src="examples.js"></script>-->
 
     <script type="text/javascript">
         $(document).ready(function () {
             $('#fullpage').fullpage({
-                anchors: ['firstPage', 'secondPage', '3rdPage'],
-                sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+                anchors: ['home', 'feature1', 'feature2'],
+                sectionsColor: ['#C7C7DC', '#EF918D', '#69C4AB'],
                 navigation: true,
                 navigationPosition: 'right',
-                navigationTooltips: ['First page', 'Second page', 'Third and last page']
+                controlArrows: false
             });
         });
     </script>
@@ -80,59 +39,65 @@
 
 <body>
 
-    <select id="demosMenu">
-        <option selected>Choose Demo</option>
-        <option id="backgrounds">Background images</option>
-        <option id="backgroundVideo">Background video</option>
-        <option id="gradientBackgrounds">Gradient backgrounds</option>
-        <option id="backgroundsFixed">Fixed fullscreen backgrounds</option>
-        <option id="looping">Looping</option>
-        <option id="noAnchor">No anchor links</option>
-        <option id="scrollingSpeed">Scrolling speed</option>
-        <option id="easing">Easing</option>
-        <option id="callbacks">Callbacks</option>
-        <option id="css3">CSS3</option>
-        <option id="continuous">Continuous scrolling</option>
-        <option id="normalScroll">Normal scrolling</option>
-        <option id="scrollBar">Scroll bar enabled</option>
-        <option id="scrolling">Scroll inside sections and slides</option>
-        <option id="navigationV">Vertical navigation dots</option>
-        <option id="navigationH">Horizontal navigation dots</option>
-        <option id="fixedHeaders">Fixed headers</option>
-        <option id="apple">Apple iPhone demo (animations)</option>
-        <option id="oneSection">One single section</option>
-        <option id="responsive">Responsive</option>
-        <option id="methods">Methods</option>
-    </select>
-
-
     <div id="fullpage">
-        <div class="section " id="section0">
-            <div class="intro">
-                <h1>Navigation dots</h1>
-                <p>An easy and beautiful way to navigate throw the sections</p>
-            </div>
-        </div>
-        <div class="section" id="section1">
-            <div class="slide" id="slide1">
-                <div class="intro">
-                    <h1>Clickable</h1>
-                    <p>
-                        You can even click on the navigation and jump directly to another section.
-                    </p>
+        <div class="section " id="home">
+            <div class="slide left-slide">
+                <div class="wrap">
+                    <img src="http://placehold.it/250x450" />
                 </div>
             </div>
 
-            <div class="slide" id="slide2">
-                <h1>Slide 2</h1>
+            <div class="slide right-slide">
+                <div class="wrap">
+                    <h1>frip</h1>
+                    <h4>
+                        A mobile app that builds flexible itineraries for friends looking to adventure in a new city.
+                    </h4>
+                    <button>Available in the app store</button>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section1">
+            <div class="slide left-slide">
+                <div class="wrap">
+                    <img src="http://placehold.it/250x450" />
+                </div>
             </div>
 
-        </div>
-        <div class="section" id="section2">
-            <div class="intro">
-                <h1>Enjoy it</h1>
+            <div class="slide right-slide">
+                <div class="wrap">
+                    <h2>Start planning an adventure.</h2>
+                    <p>Set your travel destination or browse nearby adventures curated by real locals. Add your friends to your adventure so you can share ideas and interests.</p>
+                </div>
             </div>
         </div>
+        <div class="section" id="section2">
+            <div class="slide left-slide">
+                <div class="wrap">
+                    <img src="http://placehold.it/250x450" />
+                </div>
+            </div>
+
+            <div class="slide right-slide">
+                <div class="wrap">
+                    <h2>Build smart and flexible itineraries.</h2>
+                    <p>
+                        Start laying out your itinierary by browsing from our collection of actitivies or searching for an event. Frip will suggest local favorites for each activity that are on the way to your next destination so you’re never going out of your way.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="infoMenu">
+        <ul>
+            <li><a href="#">Demo</a>
+            </li>
+            <li><a href="about.html">About</a>
+            </li>
+            <li><a href="team.html">Team</a>
+            </li>
+        </ul>
     </div>
 
 

@@ -1,2 +1,28 @@
 /* ~~~ friplicious style ~~~ */
+/* line 3, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+.fp-slidesContainer {
+  width: 100% !important; }
+
+/* line 7, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+.wrap {
+  padding: 30px; }
+
+/* line 11, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+.left-slide {
+  text-align: center; }
+
+/* line 15, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+.right-slide {
+  background-color: antiquewhite; }
+
+/* line 19, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+#infoMenu {
+  position: fixed;
+  z-index: 70;
+  bottom: 0;
+  width: 100%; }
+  /* line 25, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+  #infoMenu ul li {
+    display: inline; }
+
 /*# sourceMappingURL=style.css.map */

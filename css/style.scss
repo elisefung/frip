@@ -1,1 +1,29 @@
 /* ~~~ friplicious style ~~~ */
+
+.fp-slidesContainer {
+    width: 100% !important;
+}
+
+.wrap {
+    padding: 30px;
+}
+
+.left-slide {
+    text-align: center;
+}
+
+.right-slide {
+    background-color: antiquewhite;
+}
+
+#infoMenu {
+    position: fixed;
+    z-index: 70;
+    bottom: 0;
+    width: 100%;
+    ul {
+        li {
+            display: inline;
+        }
+    }
+}
