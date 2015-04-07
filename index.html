@@ -9,7 +9,6 @@
 
     <link rel="stylesheet" type="text/css" href="bower_components/fullpage.js/jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
     <!--[if IE]>
 		<script type="text/javascript">
@@ -25,11 +24,12 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $('#fullpage').fullpage({
-                anchors: ['home', 'feature1', 'feature2', 'feature3'],
-                sectionsColor: ['#C7C7DC', '#EF918D', '#69C4AB', '#E0E0F6'],
+                anchors: ['home', 'create', 'build', 'travel'],
+                sectionsColor: ['#E0E0F6', '#C7C7DC', '#EF918D', '#69C4AB'],
                 navigation: true,
                 //                navigationPosition: 'right',
-                controlArrows: false
+                controlArrows: false,
+                responsive: 676
             });
         });
     </script>
@@ -50,9 +50,10 @@
                 <div class="wrap">
                     <h1>frip</h1>
                     <h4>
-                        A mobile app that builds flexible itineraries for friends looking to adventure in a new city.
+                        A mobile app that builds flexible itineraries for friends looking to explore a new city
                     </h4>
-                    <span><i class="fa fa-apple">&nbsp;</i> Coming soon to the app store</span>
+                    <a class="btn" href="#create">learn more</a>
+                    <a class="btn" id="demo" href="#">demo</a>
                 </div>
             </div>
         </div>
@@ -65,23 +66,23 @@
 
             <div class="slide right-slide">
                 <div class="wrap">
-                    <h2>Start planning an adventure.</h2>
-                    <p>Set your travel destination or browse nearby adventures curated by real locals. Add your friends to your adventure so you can share ideas and interests.</p>
+                    <h2>Create an adventure</h2>
+                    <p>Set your group’s travel destination or browse nearby adventures curated by real locals. Add your friends to your adventure and start collaborative planning.</p>
                 </div>
             </div>
         </div>
         <div class="section" id="section2">
             <div class="slide left-slide">
                 <div class="wrap">
-                    <img src="img/screen1.png" />
+                    <img src="img/screen3.png" />
                 </div>
             </div>
 
             <div class="slide right-slide">
                 <div class="wrap">
-                    <h2>Build smart and flexible itineraries.</h2>
+                    <h2>Build smart and flexible itineraries</h2>
                     <p>
-                        Start laying out your itinierary by browsing from our collection of actitivies or searching for an event. Frip will suggest local favorites for each activity that are on the way to your next destination so you’re never going out of your way.
+                        Begin planning your trip by browsing through our collection of activities, or by searching for a specific event or location. Frip will suggest a few local favorite spots for each activity you choose and, by planning around your current location, will never lead you out of the way from your next stop.
                     </p>
                 </div>
             </div>
@@ -95,9 +96,9 @@
 
             <div class="slide right-slide">
                 <div class="wrap">
-                    <h2>Plan together, travel together.</h2>
+                    <h2>Plan together, travel together</h2>
                     <p>
-                        Frip helps friends collaborate in the planning process so everyone’s opinions are heard. Group voting lets everyone vote for their top picks of places to go without . Then the trip planner can finalize the itinerary.
+                        Frip helps friends collaborate in the planning process, making travel easier and more enjoyable for the whole group. All friends invited on an adventure can use Frip to suggest possible trip activities, and group voting lets everyone contribute their opinion. After the group has voted, the trip planner can finalize the adventure itinerary, and Frip will let the group know that it’s time to start exploring.
                     </p>
                 </div>
             </div>
@@ -106,16 +107,18 @@
     <!--end fullpage-->
 
     <div id="line">&nbsp;</div>
+    
     <div id="footer">
         <ul>
-            <li><a href="#">Demo</a>
-            </li>
-            <li><a href="about.html">About</a>
-            </li>
-            <li><a href="team.html">Team</a>
+<!--
+            <li id="demo"><a href="#">demo</a>
+</li>
+-->
+            <li id="about"><a href="about.html">about frip</a>
             </li>
         </ul>
     </div>
+
 
 
 </body>
