@@ -148,4 +148,36 @@ img {
   #home #demo:hover {
     background-color: #f8f8f8; }
 
+/* line 183, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+#about-page {
+  background-color: #FEFFED; }
+  /* line 185, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+  #about-page .banner {
+    background: url(../img/about.jpeg) no-repeat center center;
+    background-size: cover;
+    height: 200px;
+    background-color: #8F8FAA;
+    margin-bottom: 30px; }
+    /* line 191, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+    #about-page .banner h1 {
+      font-size: 40px;
+      color: white;
+      margin-top: 70px; }
+  /* line 197, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+  #about-page .row {
+    margin-bottom: 30px; }
+  /* line 200, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+  #about-page .block {
+    background-color: #E0E0F6;
+    border: 2px solid #E0E0F6;
+    padding: 15px;
+    margin-bottom: 30px; }
+    /* line 205, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+    #about-page .block p {
+      font-size: 16px; }
+  /* line 209, /Users/elisefung/Box Sync/Work/Capstone/frip/css/style.scss */
+  #about-page .faculty {
+    background-color: white;
+    border: 2px solid #8F8FAA; }
+
 /*# sourceMappingURL=style.css.map */

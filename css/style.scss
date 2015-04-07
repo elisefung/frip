@@ -179,3 +179,35 @@ img {
         }
     }
 }
+
+#about-page {
+    background-color: $tan;
+    .banner {
+        background: url(../img/about.jpeg) no-repeat center center;
+        background-size: cover;
+        height: 200px;
+        background-color: $blue;
+        margin-bottom: 30px;
+        h1 {
+            font-size: 40px;
+            color: white;
+            margin-top: 70px;
+        }
+    }
+    .row {
+        margin-bottom: 30px;
+    }
+    .block {
+        background-color: #E0E0F6;
+        border: 2px solid #E0E0F6;
+        padding: 15px;
+        margin-bottom: 30px;
+        p {
+            font-size: 16px;
+        }
+    }
+    .faculty {
+        background-color: white;
+        border: 2px solid $blue;
+    }
+}
